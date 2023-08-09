@@ -1,25 +1,39 @@
 <img src="src\images\logopeq1.png" width="171" height="47">
-# Procto-Final-Grupo-11
 
 # Bienvenidos al Proyecto Final
 **No hay plazo que no se venza, ni deuda que no se pague.**
-## Descripción
-A patir de las opiniones de los usuarios publicadas en plataformas como Google Maps y Yelp, se pretende realizar un analisis detallado para un conglomerado de empresas de restaurantes y afines, par tal fin, se almacenan, procesan y analizan los datos disponibles con tamaño aproximado de 32gb, se usaran diferentes herramientas que permiten procesar grandes volumnes de datos como Mongod db, Spark, Azure.
 
-**las librerias empleadas en el EDA son**:
-1. Pandas
-2. Numpy
-3. Matplotlib.pyplot
-4. Seaborn
-**En este repositorio encotrarán los siguientes archivos:**
-1. df: contiene los archivos en formato csv para los diferentes analisis.
-2. EDAda.ipynb: Notebook donde se encuentra el EDA.
+## Acerca de Consultores Inc.
+
+Como buen equipo para ciencia de datos, somos eclécticos, pero complementarios.
+Tenemos la capacidad para conjugar distintas visiones técnicas y comerciales, al igual que hemos aprendido a conciliar la experiencia, con la impulsividad de las mentes más jóvenes, porque sabemos que son esenciales para encontrar soluciones que resuelvan los problemas del mundo en que vivimos, nadie es prescindible y todos tienen algo que aportar.
+Los grandes equipos, a veces, no se escogen, pero se hacen fuertes por las circunstancias.
+
+## Descripción
+
+A patir de las opiniones de los usuarios publicadas en plataformas como Google Maps y Yelp, se pretende realizar un analisis detallado para un conglomerado de empresas de restaurantes y afines, par tal fin; se almacenan, procesan y analizan los datos disponibles de las reseñas generadas en Estados Unidos, el peso aproximado de los datos iniciales es de 32gb, se usaran diferentes herramientas que permiten procesar grandes volumenes de datos.
+
+**Herramientas a usar**:
+1. MongoDB
+2. Spark
+3. Azure
+4. DataBricks
+5. Visual Studio Code
+6. Looker Studio
+
    
-## Objetivo
-Explorar los data sets que contiene información sobre accesos de internet, telefonía móvil y población en Argentina, para identificar oportunidades de crecimiento para el sector de las telecomunicaciones.
-## EDA
+
+## Alcance
+
+   Para efectos de este proyecto final se tomara una muestra de tres estados de USA, para la selección se tendrá en cuenta los siguientes parametros:
+1. Densidad poblacional
+2. Indice de criminalidad
+3. Diversidad étnica
+   
+   De igual forma el proyecto se enfoca en un rubro.
 
 ## KPIs Merchant
+
 1. **Incrementar en un X % el “Número de Reseñas (Yelp) o Review (Google Maps)” en X Meses**:   
    las reseñas son fundamentales para aumentar la visibilidad y participación de la
    empresa (tanto local como internacionalmente). Incrementar el número de reseñas positivas
@@ -39,6 +53,7 @@ Explorar los data sets que contiene información sobre accesos de internet, tele
    medir la relación entre conteo total de reseñas negativas respecto al conteo total de reseñas
    recibidas durante el período de X meses.
 ## KPIs Investor
+
 1. **Determinar la “”Tasa de Engagement de usuarios” respecto a la competencia**: el
    engagement es un factor al que cada vez le prestan más atención las empresas y sus
    equipos de Marketing, ya que está asociado con el posicionamiento sustentable y una
