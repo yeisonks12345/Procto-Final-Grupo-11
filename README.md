@@ -1,4 +1,4 @@
-<img src="src\images\logopeq1.png" width="190" height="82">
+<img src="src\images\logopeq1.png" width="171" height="47">
 # Procto-Final-Grupo-11
 
 # Bienvenidos al Proyecto Final
