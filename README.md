@@ -14,25 +14,30 @@ Los grandes equipos, a veces, no se escogen, pero se hacen fuertes por las circu
 A patir de las opiniones de los usuarios publicadas en plataformas como Google Maps y Yelp, se pretende realizar un analisis detallado para un conglomerado de empresas de restaurantes y afines, par tal fin; se almacenan, procesan y analizan los datos disponibles de las reseñas generadas en Estados Unidos, el peso aproximado de los datos iniciales es de 32gb, se usaran diferentes herramientas que permiten procesar grandes volumenes de datos.
 
 **Herramientas a usar**:
-1. MongoDB
-2. Spark
-3. Azure
-4. DataBricks
-5. Visual Studio Code
-6. Looker Studio
+1. Google Drive
+2. MongoDB
+3. Cosmos DB
+4. Spark
+5. SQLite 3
+6. Azure (ABS, ADF, Functions)
+7. DataBricks
+8. Python
+9. Visual Studio Code
+10. Collab
+11. Looker Studio
 
    
 
 ## Alcance
 
-   Para efectos de este proyecto final se tomara una muestra de tres estados de USA, para la selección se tendrá en cuenta los siguientes parametros:
+   Para efectos de este proyecto final se tomará una muestra de tres estados de USA, para la selección, se han considerado los siguientes parametros:
 1. Densidad poblacional
 2. Indice de criminalidad
 3. Diversidad étnica
    
    De igual forma el proyecto se enfoca en un rubro.
 
-## KPIs Merchant
+## KPIs Merchant (Usamos merchant en forma genérica como cualquier proveedor de BBSS que tenga presencia en las platformas digitales analizadas)
 
 1. **Incrementar en un X % el “Número de Reseñas (Yelp) o Review (Google Maps)” en X Meses**:   
    las reseñas son fundamentales para aumentar la visibilidad y participación de la
@@ -52,24 +57,27 @@ A patir de las opiniones de los usuarios publicadas en plataformas como Google M
    experiencia del cliente y hacer crecer la empresa. La métrica asociada a este KPI sería
    medir la relación entre conteo total de reseñas negativas respecto al conteo total de reseñas
    recibidas durante el período de X meses.
-## KPIs Investor
+
+## KPIs Investor (Un investor o inversionista, persona que buscar rentabiliar capital)
 
 1. **Determinar la “”Tasa de Engagement de usuarios” respecto a la competencia**: el
-   engagement es un factor al que cada vez le prestan más atención las empresas y sus
+   "engagement", es un factor al que cada vez le prestan más atención las empresas y sus
    equipos de Marketing, ya que está asociado con el posicionamiento sustentable y una
    buena gestión de marca. La métrica asociada a este KPI puede obtenerse a partir de la
    relación entre cantidad de reseñas referidas a un determinado comercio respecto a la
    cantidad total de reseñas realizadas por dicho usuario en un periodo de tiempo
-   determinado.
-2. **Analizar el “Índice de saturación de mercado”**: un mercado saturado es un
+   determinado. Cuando una marca tiene presencia, hace ruido en el mercado y está en la
+   mente de sus segmentos objetvos.
+   
+3. **Analizar el “Índice de saturación de mercado”**: un mercado saturado es un
    mercado maduro, en el que la idea de negocio ya está probada y hay diferentes agentes
    desarrollándose, por lo que resulta útil como perspectiva de crecimiento o competitividad de
    la empresa. Para poder calcular este KPI se pretende estimar el número total de negocios
    por categoría por cada X cantidad de habitantes (por localidad o estado) siguiendo su
    evolución (crece, se mantiene o decrece) a lo largo de un periodo de tiempo.
-3. **Evolución del Promedio interanual de calificación por categoría respecto a la oferta**:
-   serviría para establecer los bordes del KPI (valor máximo, mínimo, target) mediante el
-   cálculo del promedio de calificaciones de reseñas para los negocios de cada categoría
-   durante los últimos 5 años.
-
-
+   
+5. **Evolución del Promedio interanual de calificaciones por categoría respecto a la oferta**:
+   Toda industria o agente económico, se compara contra algo para establecer metas u objetivos.
+   En este caso, mantener una medición de este tipo sirve para establecer los bordes del KPI
+   (valores máximo, mínimo, target) mediante el cálculo del promedio de calificaciones de reseñas
+   para los negocios de cada categoría durante los últimos 5 años.
