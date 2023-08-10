@@ -1,4 +1,4 @@
-<img src="src\images\logopeq1.png" width="171" height="47">
+<img src="src\images\logof.jpeg" width="171" height="47">
 
 # Bienvenidos al Proyecto Final
 **No hay plazo que no se venza, ni deuda que no se pague.**
