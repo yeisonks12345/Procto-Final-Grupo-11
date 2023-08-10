@@ -9,7 +9,7 @@ Como buen equipo para ciencia de datos, somos eclécticos, pero complementarios.
 Tenemos la capacidad para conjugar distintas visiones técnicas y comerciales, al igual que hemos aprendido a conciliar la experiencia, con la impulsividad de las mentes más jóvenes, porque sabemos que son esenciales para encontrar soluciones que resuelvan los problemas del mundo en que vivimos, nadie es prescindible y todos tienen algo que aportar.
 Los grandes equipos, a veces, no se escogen, pero se hacen fuertes por las circunstancias.
 
-**Objetivo 
+**Objetivo** 
 "PROPORCIONAMOS INFORMACIÓN RELEVANTE Y VALIOSA A NUESTROS CLIENTES PARA RESPALDAR Y ENRIQUECER SUS DECISIONES ESTRATÉGICAS Y OPERATIVAS DE NEGOCIO."
 
 ## Descripción
