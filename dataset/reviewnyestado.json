@@ -1,0 +1,65 @@
+{
+	"name": "reviewnyestado",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "google-review-newyork"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"user_id": {
+					"type": "string"
+				},
+				"name": {
+					"type": "string"
+				},
+				"time": {
+					"type": "integer"
+				},
+				"rating": {
+					"type": "integer"
+				},
+				"text": {
+					"type": "string"
+				},
+				"pics": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"url": {
+								"type": "array",
+								"items": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"resp": {
+					"type": "object",
+					"properties": {
+						"time": {
+							"type": "integer"
+						},
+						"text": {
+							"type": "string"
+						}
+					}
+				},
+				"gmap_id": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
